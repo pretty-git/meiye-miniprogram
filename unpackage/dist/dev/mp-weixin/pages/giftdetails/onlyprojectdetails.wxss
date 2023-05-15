@@ -1,0 +1,305 @@
+
+.main.data-v-ab82b8ea {
+	/* position: absolute; */
+	  bottom: 0px;
+	  top:0px;
+		background-color: #fff!important;
+	  width: 100%;
+	  /* height: 100%; */
+}
+button.data-v-ab82b8ea::after{
+
+border: none;
+}
+button.data-v-ab82b8ea{
+	padding: 0px;
+	line-height: 26px;
+	background-color: #fff;
+	width: 75%;
+	text-align: right;
+	font-size: 17px;
+	margin: auto 0;
+	border-radius: 0px;
+}
+.top.data-v-ab82b8ea {
+		width: 100%;
+		height: 188px;
+		position: relative;
+}
+.top image.data-v-ab82b8ea {
+	width: 100%;
+	height: 188px;
+}
+.share_icon.data-v-ab82b8ea {
+	font-family: iconfont;
+	width: 38px;
+	height: 38px;
+	line-height: 84rpx;
+	background-color: rgba(56, 56, 56, 0.6);
+	border-radius: 19px;
+	font-size: 23px;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	position: absolute;
+	top: 17px;
+	right: 14px;
+}
+/* <!-- 信息介绍部分begin --> */
+.top_message.data-v-ab82b8ea {
+		width: 100%;
+		height: 240rpx;
+		position: relative;
+		border-bottom: 11px solid rgba(229, 229, 229, 1);
+}
+.name.data-v-ab82b8ea {
+		width: 50%;
+		
+		height: 24px;
+		color: rgba(80, 80, 80, 1);
+		font-size: 16px;
+		text-align: left;
+		font-weight: bold;
+		margin: 10px 0 10px 14px;
+}
+.intro.data-v-ab82b8ea {
+		top: 303px;
+		color: rgba(166, 166, 166, 1);
+		font-size: 14px;
+		text-align: left;
+		margin:auto 24rpx;
+}
+.time.data-v-ab82b8ea {
+		color: rgba(166, 166, 166, 1);
+		font-size: 14px;
+		text-align: left;
+		margin: 0px 0 17px 14px;
+}
+.price_intro.data-v-ab82b8ea {
+		color: #F14D5C;
+		font-size: 14px;
+		text-align: left;
+		position: absolute;
+
+		bottom: 11px;
+		right: 13px;
+}
+.care_icon.data-v-ab82b8ea {
+		font-size: 20px;
+		color: rgba(212, 48, 48, 1);
+		position: absolute;
+		top: 26rpx;
+		right: 14px;
+}
+/* <!-- 信息介绍部分end --> */
+/* 团购部分bengin */
+.left.data-v-ab82b8ea {
+		width: 85%;
+}
+.spell_title.data-v-ab82b8ea {
+		color: rgba(80, 80, 80, 1);
+		font-size: 16px;
+		margin-left: 14px;
+		font-weight: bold;
+		padding: 10px 0;
+}
+.spell_title_ex.data-v-ab82b8ea {
+		color: #AAAAAA;
+		font-size: 13px;
+		margin-left: 14px;
+		margin-top: 8px;
+}
+.directorlist1.data-v-ab82b8ea {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 10px;
+}
+.bulk_modul.data-v-ab82b8ea {
+			border-bottom: 11px solid rgba(229, 229, 229, 1);
+}
+.director.data-v-ab82b8ea {
+			width: 100%;
+			padding: 8px 0 0 28px;
+			display: flex;
+			flex-direction: row;
+			color: #F14D5C;
+}
+.director_name.data-v-ab82b8ea {
+			width: 15%;
+			font-size: 14px;
+			 padding-top: 5px;
+}
+.directorlist.data-v-ab82b8ea {
+			font-size: 14px;
+			margin-left: 10px;
+}
+.spell_btn.data-v-ab82b8ea {
+			width: 72px;
+			height: 29px;
+			color: #fff;
+			background-color: #F8B551;
+			border-radius: 4px;
+			font-size: 14px;
+			line-height: 29px;
+			text-align: center;
+			margin-left: 20px;
+}
+.manager_number.data-v-ab82b8ea {
+			/* margin-right: 15px; */
+			width: 30%;
+			padding-top: 5px;
+}
+.manager_price.data-v-ab82b8ea {
+			/* margin-right: 15px; */
+			width: 30%;
+			padding-top: 5px;
+}
+/* 团购部份end */
+/* <!-- 优惠券部分begin --> */
+.coupons_modul.data-v-ab82b8ea {
+		width: 100%;
+		height: 73px;
+		padding-bottom: 10px;
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+}
+.coupons.data-v-ab82b8ea {
+		width: 33.3%;
+		height: 53px;
+		background-color: #FD80DB;
+		border-radius: 6px;
+		overflow: hidden;
+		position: relative;
+		margin: 0 10px;
+}
+.coupons_price.data-v-ab82b8ea {
+		color: #fff;
+		font-size: 19px;
+		text-align: center;
+		font-weight: bold;
+		width: 79%;
+		height: 33px;
+		line-height: 33px;
+		text-align: center;
+}
+.coupons_prompt.data-v-ab82b8ea {
+		color: #fff;
+		font-size: 13px;
+		width: 79%;
+		text-align: center;
+}
+.to_receive.data-v-ab82b8ea {
+		width: 21%;
+		height: 53px;
+		top: 0;
+		text-align: center;
+		line-height: 25px;
+		right:0 ;
+		position: absolute;
+		color: rgba(255, 255, 255, 1);
+		background-color: #E71EB1;
+		font-size: 14px;
+}
+/* <!-- 优惠券部分end --> */
+/* <!-- 项目介绍begin --> */
+/* <!-- 项目end --> */
+.botton.data-v-ab82b8ea {
+		width: 100%;
+		height: 52px;
+		top: auto;
+		bottom: -1px;
+		position: fixed;
+		color: rgba(255, 255, 255, 1);
+		background-color: #CA89FF;
+		font-size: 18px;
+		line-height: 52px;
+		text-align: center;
+}
+.occupymodal.data-v-ab82b8ea {
+		background-color: #fff;
+		height: 60px;
+		width: 100%;
+}
+.intro_text.data-v-ab82b8ea {
+		margin: 10px 0 10px 14px;
+		font-size: 18px;
+		font-weight: bold;
+}
+.intro_image.data-v-ab82b8ea {
+		width: 100%;
+		padding: 0 14px;
+		height: 198px;
+}
+.intro_image image.data-v-ab82b8ea {
+		width: 100%;
+		height: 198px;
+}
+.intro_word.data-v-ab82b8ea {
+		width: 100%;
+		padding: 19px 14px;
+		color: rgba(80, 80, 80, 1);
+		font-size: 14px;
+}
+/* 支付层页面样式 */
+.cu-dialog.data-v-ab82b8ea {
+			height: 270px;
+}
+.icon1.data-v-ab82b8ea {
+		font-family: iconfont;
+		font-size: 29px;
+		margin-right: 5px;
+}
+.bg-white.data-v-ab82b8ea {
+		width: 100%;
+		height: 50%;
+}
+.cu-bar .action2.data-v-ab82b8ea {
+		    font-size: 25px;
+			position: absolute;
+			left: 16px;
+			top: 9px;
+}
+.password.data-v-ab82b8ea {
+		position: absolute;
+		top: 13px;
+		right: 10px;
+		color: rgba(153, 153, 153, 1);
+		font-size: 16px;
+}
+.bg-white.data-v-ab82b8ea {
+		height: 16px;
+		/* border-bottom: 1px solid #e8e8e8; */
+}
+.padding-xl.data-v-ab82b8ea {
+		width: 100%;
+		height: 110px;
+}
+.busname.data-v-ab82b8ea {
+		color: rgba(102, 102, 102, 1);
+		font-size: 18px;
+		margin: 0 auto;
+}
+.price.data-v-ab82b8ea {
+		color: rgba(0, 0, 0, 1);
+		font-size: 39px;
+		margin-top: 20px;
+}
+.card.data-v-ab82b8ea {
+		text-indent: 13px;
+		color: rgba(128, 128, 128, 1);
+		font-size: 17px;
+}
+.cu-btn1.data-v-ab82b8ea {
+		color: #ffffff;
+		box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
+		border-radius: 6px;
+		font-size: 18px;
+		height: 45px;
+		width: 90%;
+		margin: 0 auto;
+		line-height: 45px;
+		text-align: center;
+		margin-top: 35px;	
+		background-color: #35B936;
+}
+

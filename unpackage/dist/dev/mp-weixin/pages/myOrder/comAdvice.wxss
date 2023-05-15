@@ -1,0 +1,220 @@
+
+.order_modal.data-v-7fe963e3 {
+	width: 90%;
+	margin: 0 auto;
+	height: 126px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+}
+.fix.data-v-7fe963e3 {
+	display: flex;
+	flex-direction: row;
+}
+.vertical.data-v-7fe963e3 {
+	margin: auto 0;
+}
+
+/* 上下居中 */
+.use_craftman.data-v-7fe963e3 {
+	width: 44px;
+	height: 44px;
+	border-radius: 4px;
+}
+.use_craftman image.data-v-7fe963e3 {
+	width: 44px;
+	height: 44px;
+	border-radius: 4px;
+}
+.order.data-v-7fe963e3 {
+	height: 50%;
+	padding: 0 15px;
+}
+.lefticon.data-v-7fe963e3 {
+	font-size: 28px;
+	font-weight: bold;
+	color: rgba(56, 56, 56, 1);
+}
+.righticon.data-v-7fe963e3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(153, 153, 153, 1);
+}
+.width.data-v-7fe963e3 {
+	width: 80%;
+	text-align: left;
+	padding-left: 10px;
+}
+
+/* 服务模块 */
+.pro_modal.data-v-7fe963e3 {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+.pro_top.data-v-7fe963e3 {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+.proicon.data-v-7fe963e3 {
+	font-size: 24px;
+	color: rgba(56, 56, 56, 1);
+	padding-left: 17px;
+}
+.protext.data-v-7fe963e3 {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 8px;
+}
+.telicon.data-v-7fe963e3 {
+	font-size: 25px;
+	color: rgba(153, 153, 153, 1);
+}
+.tel.data-v-7fe963e3 {
+	text-align: center;
+	height: 40px;
+	width: 230%;
+	margin: auto;
+}
+.tel_text.data-v-7fe963e3 {
+	margin-left: 10px;
+}
+.proimage.data-v-7fe963e3 {
+	width: 90px;
+	height: 62px;
+	border-radius: 4px;
+}
+.proimage image.data-v-7fe963e3 {
+	width: 90px;
+	height: 62px;
+	border-radius: 4px;
+}
+.detailList_name.data-v-7fe963e3 {
+	font-size: 16px;
+}
+.detailList_time.data-v-7fe963e3 {
+	color: rgba(166, 166, 166, 1);
+	font-size: 14px;
+	margin-top: 15px;
+}
+.proList.data-v-7fe963e3 {
+	position: relative;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.detailList_price.data-v-7fe963e3 {
+	color: rgba(255, 108, 144, 1);
+	font-size: 14px;
+	position: absolute;
+	top: 48%;
+	left: 50%;
+}
+.pay_modal.data-v-7fe963e3 {
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.pay_left.data-v-7fe963e3 {
+	letter-spacing: 1px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.hei.data-v-7fe963e3 {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.allprice_modal.data-v-7fe963e3 {
+	background-color: #fff;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.allprice_wid.data-v-7fe963e3 {
+	width: 73%;
+	text-align: right;
+}
+.truePrice.data-v-7fe963e3 {
+	height: 30px;
+	width: 100%;
+	margin-bottom: 60px;
+	margin-top: 5px;
+	margin-left: 65%;
+}
+.bottom_btn.data-v-7fe963e3 {
+	height: 50px;
+	background-color: #fff;
+	padding-left: 15px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #f1f1f1;
+	width: 100%;
+	/* border-bottom: 2px solid #F1F1F1; */
+}
+.bottom_btn1.data-v-7fe963e3 {
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	color: rgba(80, 80, 80, 1);
+	border: 1px solid rgba(204, 204, 204, 1);
+	border-radius: 16px;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+/* 问题描述 */
+.problem_modal.data-v-7fe963e3 {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+textarea.data-v-7fe963e3 {
+	background-color: rgba(229, 229, 229, 1);
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.playicon.data-v-7fe963e3 {
+	font-size: 28px;
+	color: rgba(153, 153, 153, 1);
+	padding: 11px 0 17px 17px;
+}
+
+/* 两个按钮 */
+.bottom.data-v-7fe963e3 {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	bottom: 0;
+	top: auto;
+	left: 0px;
+	width: 100%;
+	z-index: 9999;
+}
+.show_price.data-v-7fe963e3 {
+	width: 70%;
+	height: 48px;
+	color: rgba(166, 166, 166, 1);
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+.buybtn.data-v-7fe963e3 {
+	width: 30%;
+	height: 48px;
+	color: rgba(255, 255, 255, 1);
+	background-color: #FB4B5C;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+

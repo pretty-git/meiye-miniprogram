@@ -1,0 +1,723 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 名片顶部begin */
+page.data-v-259fb574 {
+	background-image: linear-gradient(45deg, #f1f1f1, #E8E8E8);
+}
+.comlabel.data-v-259fb574 {
+	width: 44px;
+	height: 25px;
+	left: 0px;
+	position: absolute;
+	top: -12px;
+	border-radius: 5px;
+	font-size: 13px;
+	line-height: 25px;
+	text-align: center;
+}
+.user_top.data-v-259fb574 {
+	width: 93%;
+	margin-left: 16px;
+	height: 127px;
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+	margin-top: 10px;
+	position: relative;
+	border-radius: 5px;
+}
+.user-top-icon.data-v-259fb574 {
+	width: 66px;
+	height: 66px;
+	border-radius: 34px;
+	margin: 15px 0px 37px 14px;
+	position: absolute;
+}
+.user-top-image.data-v-259fb574 {
+	position: relative;
+	top: 12%;
+	left: 5%;
+}
+.user-top-image1.data-v-259fb574 {
+	font-size: 60px;
+	position: relative;
+	top: 19%;
+	left: 13%;
+	color: #D898FA;
+}
+.user-top-icon image.data-v-259fb574 {
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+}
+.user-top-message.data-v-259fb574 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding-left: 10px;
+	left: 20%;
+}
+.user-top-name.data-v-259fb574 {
+	color: #000000;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+	margin: 30px 0 10px 10px;
+}
+.user-top-name1.data-v-259fb574 {
+	color: #000000;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+	margin: 45px 0 10px 10px;
+}
+.user-top-id.data-v-259fb574 {
+	color: rgba(80, 80, 80, 1);
+	font-size: 15px;
+	text-align: left;
+	margin: 0px 0 19px 10px;
+}
+.uer-top-set.data-v-259fb574 {
+	position: absolute;
+	right: 36px;
+	top: 37px;
+}
+.user-top-set-text.data-v-259fb574 {
+	color: #fb4b5c;
+	font-size: 18px;
+	text-align: left;
+	/* font-weight: bold; */
+	margin-top: 0px;
+	padding-left: 10%;
+}
+.uer-top-set-up.data-v-259fb574 {
+	width: 78px;
+	height: 26px;
+	line-height: 26px;
+	opacity: 0.88;
+	color: rgba(255, 255, 255, 1);
+	background-color: #41ACDF;
+	border-radius: 14px;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto;
+	/* margin: 0 36px 37px 0; */
+}
+/* 名片顶部end */
+/* 积分系类 begin */
+.total_list.data-v-259fb574 {
+	width: 95%;
+	height: 97px;
+	margin: 15px 14px 19px 10px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.total_list_full.data-v-259fb574 {
+	display: flex;
+	width: 25%;
+	flex-direction: column;
+	margin: auto 0;
+}
+.total_list_number.data-v-259fb574 {
+	text-align: center;
+	color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	font-weight: bold;
+}
+.total_list_name.data-v-259fb574 {
+	color: #808080;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 11px;
+}
+/* 积分系列  end */
+/* 第三列表begin */
+.shopping_list_icon.data-v-259fb574 {
+	font-family: iconfont;
+	position: relative;
+}
+.shopping_list.data-v-259fb574 {
+	width: 95%;
+	height: 85px;
+	margin: 10px 14px 19px 10px;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+}
+.shopping_list1.data-v-259fb574 {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+.shopping_list_view.data-v-259fb574 {
+	width: 25%;
+}
+.shopping_list_icon.data-v-259fb574 {
+	font-size: 35px;
+	/* color: rgba(0, 0, 0, 1); */
+	margin: 13px 0 7px 5px;
+}
+.shopping_list_name.data-v-259fb574 {
+	color: #808080;
+	font-size: 14px;
+	margin: 0 0 9px 7px;
+}
+/* 第三列表end */
+/* <!-- 列表四 begin --> */
+.oder_list.data-v-259fb574 {
+	width: 95%;
+	margin: 10px 14px 19px 10px;
+	background-color: #fff;
+	text-align: center;
+}
+.order_list_icon.data-v-259fb574 {
+	font-family: iconfont;
+	color: #ED1C24;
+}
+.order_list_details.data-v-259fb574 {
+	display: flex;
+	flex-direction: row;
+}
+.order_list_view.data-v-259fb574 {
+	width: 20%;
+}
+.order_list_icon.data-v-259fb574 {
+	font-size: 35px;
+	margin-top: 14px;
+	margin-bottom: 7px;
+}
+.order_list_name.data-v-259fb574 {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #808080;
+}
+.order_list_show.data-v-259fb574 {
+	display: flex;
+	flex-direction: row;
+	margin-top: 9px;
+	background-color: #fff;
+	width: 100%;
+	padding-right: 10px;
+}
+.order_list_show_src.data-v-259fb574 {
+	width: 45px;
+	height: 45px;
+	border-radius: 4px;
+	margin-left: 17px;
+	margin-bottom: 11px;
+}
+.order_list_show_src image.data-v-259fb574 {
+	width: 45px;
+	height: 45px;
+	border-radius: 4px;
+}
+.order_list_show_ms.data-v-259fb574 {
+	display: flex;
+	margin-left: 5px;
+	flex-direction: column;
+}
+.order_list_show_name.data-v-259fb574 {
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-top: 3px;
+}
+.order_list_show_more.data-v-259fb574 {
+	color: rgba(128, 128, 128, 1);
+	font-size: 13px;
+	text-align: left;
+	margin-left: 10px;
+}
+/* 未完成订单提醒 */
+.notFinish.data-v-259fb574 {
+	width: 40%;
+	/* border-left: 1px solid #FF9700; */
+	position: relative;
+}
+.notFinish_text.data-v-259fb574 {
+	padding: 20px 0 0 20px;
+	font-size: 16px;
+}
+.notFinish_icon.data-v-259fb574 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 25px;
+	color: red;
+}
+/* <!-- 列表四 end --> */
+/* <!-- 列表五 begin --> */
+.focus_icon.data-v-259fb574 {
+	width: 36px;
+	height: 20px;
+	position: absolute;
+	top: -11px;
+	left: -5px;
+	
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(246, 73, 73, 1);
+	border-radius: 6px;
+	font-size: 11px;
+	text-align: center;
+}
+/* <!-- 列表五end --> */
+

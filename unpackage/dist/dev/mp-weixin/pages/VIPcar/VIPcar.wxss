@@ -1,0 +1,66 @@
+
+.bg.data-v-580e9c34 {
+	background-color: #fff;
+	width: 100%;
+}
+.vip_car.data-v-580e9c34 {
+	width: 95%;
+	/* height: 100%; */
+	overflow: hidden;
+	overflow-x: scroll;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.car.data-v-580e9c34 {
+	width: 48%;
+	margin: 1%;
+	/* margin: 0 10px 0 10px; */
+}
+.carname.data-v-580e9c34 {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #847E80;
+}
+.vip_car_bc.data-v-580e9c34 {
+	width: 100%;
+	height: 90px;
+	color: #fff;
+	background-color: #F074AD;
+	border-radius: 5px;
+	/* flex-wrap: wrap; */
+	/* font-size: 11px; */
+	/* margin: 5px 9px 5px 2px; */
+	position: relative;
+}
+.car_name.data-v-580e9c34 {
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	font-size: 18px;
+	/* font-family: 'Times New Roman'; */
+}
+.car_number.data-v-580e9c34 {
+	position: absolute;
+	left: 10%;
+	color: #FFCD61;
+	bottom: 17%;
+	font-weight: bold;
+	font-size: 18px;
+}
+.vipbacimage.data-v-580e9c34 {
+	width: 52px;
+	height: 60px;
+	position: absolute;
+	right: 5%;
+	top: 10%;
+}
+.vipbacimage image.data-v-580e9c34 {
+	width: 52px;
+	height: 60px;
+	position: absolute;
+	right: 5%;
+	top: 10%;
+}
+

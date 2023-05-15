@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店卖品",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

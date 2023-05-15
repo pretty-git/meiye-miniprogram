@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "项目详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "tui-button": "/components/button/button",
+    "tui-modal": "/components/modal/modal"
+  }
+}

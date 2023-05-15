@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "名姿沙龙",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-notice-bar": "/components/notice-bar/uni-notice-bar"
+  }
+}

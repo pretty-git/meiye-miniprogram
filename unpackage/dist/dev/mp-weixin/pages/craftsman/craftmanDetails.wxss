@@ -1,0 +1,273 @@
+
+page.data-v-47652797 {
+	background-color: #fff !important;
+}
+button.data-v-47652797::after {
+
+	border: none;
+}
+button.data-v-47652797 {
+	padding: 0px;
+	line-height: 26px;
+	background-color: #fff;
+	width: 100%;
+	text-align: right;
+	font-size: 14px;
+	margin: auto 0;
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+}
+.main.data-v-47652797 {
+	width: 100%;
+	padding: 0 22px;
+	height: 100%;
+	padding-top: 7px;
+}
+
+/* 头像模块 */
+.top.data-v-47652797 {
+	width: 100%;
+	height: 113px;
+	margin: 29px 0 20px 0;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #F1F1F1;
+}
+.top_left_img.data-v-47652797 {
+	width: 88px;
+	height: 88px;
+	border-radius: 45px;
+}
+.top_left_img image.data-v-47652797 {
+
+	height: 88px;
+	border-radius: 45px;
+}
+.top_middle_text.data-v-47652797 {
+	width: 60%;
+	height: 100%;
+	position: relative;
+}
+.top_middle_text_title.data-v-47652797 {
+	position: absolute;
+	top: 6px;
+	left: 8%;
+	color: rgba(80, 80, 80, 1);
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+.top_middle_text_label.data-v-47652797 {
+	height: 25px;
+	padding: 0 5px;
+	color: rgba(255, 255, 255, 1);
+	background-color: #fb4b5c;
+	border-radius: 5px;
+	font-size: 14px;
+	line-height: 25px;
+	position: absolute;
+	top: 6px;
+	left: 56%;
+	text-align: center;
+}
+.top_middle_text_all.data-v-47652797 {
+	position: absolute;
+	bottom: 46%;
+	left: 14%;
+	font-size: 14px;
+}
+.top_middle_text_all_text.data-v-47652797 {
+	position: absolute;
+	bottom: 21%;
+	left: 10%;
+}
+.top_middle_text_month.data-v-47652797 {
+	position: absolute;
+	bottom: 46%;
+	right: 29%;
+	font-size: 14px;
+}
+.top_middle_text_month_text.data-v-47652797 {
+	position: absolute;
+	bottom: 21%;
+	right: 18%;
+}
+.top_right.data-v-47652797 {
+	width: 20%;
+	height: 100%;
+	position: relative;
+	margin-top: 3%;
+}
+.top_right_care.data-v-47652797 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	color: red;
+	font-size: 26px;
+}
+.top_right_care_text.data-v-47652797 {
+	position: absolute;
+	top: 4%;
+	right: 0%;
+}
+.top_right_share.data-v-47652797 {
+	font-size: 26px;
+	color: red;
+}
+.top_right_share_text.data-v-47652797 {
+	width: 100%;
+}
+
+/* 服务项目 */
+.middle.data-v-47652797 {
+	width: 100%;
+	/* height: 170px; */
+	position: relative;
+	padding-bottom: 20px;
+}
+.middle_icon.data-v-47652797 {
+	font-size: 30px;
+	color: #313333;
+}
+.middle_title_text.data-v-47652797 {
+	position: absolute;
+	top: 5px;
+	left: 11%;
+	color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	font-weight: bold;
+}
+.goods-box.data-v-47652797 {
+	width: 100%;
+	text-align: center;
+	white-space: nowrap;
+}
+.goods-item.data-v-47652797 {
+	display: inline-block;
+	margin-right: 19px;
+	margin-top: 18px;
+	/* border-radius: 28px; */
+}
+.goods-img.data-v-47652797 {
+	display: block;
+	width: 140px;
+	height: 80px;
+	border-radius: 4px;
+}
+.goods-name.data-v-47652797 {
+	margin-top: 10px;
+	color: rgba(80, 80, 80, 1);
+}
+.goods-price.data-v-47652797 {
+	margin-top: 10px;
+	color: #808080;
+	padding-left: 5px;
+}
+
+/* 顾客评价 */
+.middle_customer.data-v-47652797 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.craftman_left_star.data-v-47652797 {
+	font-size: 15px;
+	color: rgba(255, 141, 26, 1);
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+}
+.craftman_left_star_icon.data-v-47652797 {
+	font-family: iconfont;
+	font-size: 15px;
+	margin: 0 2px;
+}
+.est.data-v-47652797 {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0;
+}
+.middle_icon1.data-v-47652797 {
+	font-size: 27px;
+	color: #313333;
+}
+.middle_title_text1.data-v-47652797 {
+	position: absolute;
+	top: 5px;
+	left: 11%;
+	color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	font-weight: bold;
+}
+.labeLlist.data-v-47652797 {
+	margin: 4px;
+}
+.labeLlist_text.data-v-47652797 {
+	padding: 0 15px;
+	height: 36px;
+	color: rgba(153, 164, 189, 1);
+	border: 1px solid rgba(56, 56, 56, 1);
+	border-radius: 18px;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+}
+
+/* 个人简历 */
+.middle_title2.data-v-47652797 {
+	/* height: 250px; */
+	width: 100%;
+	line-height: 20px;
+	position: relative;
+	padding: 10px 0;
+}
+.middle_icon2.data-v-47652797 {
+	font-size: 30px;
+	margin-right: 5px;
+	color: #313333;
+	
+	font-weight: bold;
+}
+.middle_title_text2.data-v-47652797 {
+	/* position: absolute;
+		top: 8px;
+		left: 10%; */
+	color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	font-weight: bold;
+}
+.middle_title2_imgae.data-v-47652797 {
+	width: 100%;
+	margin: 15px 0;
+}
+
+/* 作品展示 */
+.works_show.data-v-47652797 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.works_show_list.data-v-47652797 {
+	width: 29.3%;
+	height: 135px;
+	margin: 10px 6px;
+}
+.works_show_list1.data-v-47652797 {
+	width: 100%;
+	height: 135px;
+	margin: 10px 6px;
+}
+.works_show_list1 image.data-v-47652797 {
+	width: 100%;
+	height: 135px;
+}
+.manicon.data-v-47652797 {
+	font-size: 25px;
+	color: #FB4142;
+}
+

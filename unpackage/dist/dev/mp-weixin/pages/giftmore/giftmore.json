@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "活动礼包",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

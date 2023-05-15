@@ -1,0 +1,751 @@
+#statement {
+  /* 项目栏 */
+  /* 总金额模块 */
+  /* 升级卡片页面begin */
+  /* .car_list {
+		width: 100%;
+		margin: 0 10px 0 10px;
+	} */
+  /* 升级卡片页面end */
+  /* 升级卡片页面end */
+  /* 顶部nav  end */
+  /* 选择红包卡券的窗口 */
+  /* 两个按钮 */
+  /* 支付方式按钮 */
+}
+#statement .pay_top {
+  width: 100%;
+  background-color: #fff;
+  margin: 30rpx 0;
+}
+#statement .top_title {
+  display: flex;
+  flex-direction: row;
+}
+#statement .redline {
+  background-image: linear-gradient(#FC7127, #F93B14);
+  font-size: 12px;
+  color: #fff;
+  width: 75%;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 1px;
+  height: 20px;
+  line-height: 20px;
+}
+#statement .text {
+  color: #505050;
+  font-size: 32rpx;
+  font-weight: bold;
+  width: 33.3%;
+  text-align: center;
+  border-bottom: 4rpx solid #f1f1f1;
+  padding: 10px 0;
+}
+#statement .top_content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  line-height: 44rpx;
+  padding: 20rpx 0;
+}
+#statement .top_content_com {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  line-height: 44rpx;
+  padding: 30rpx 0;
+}
+#statement .wid1 {
+  width: 50%;
+  text-align: center;
+}
+#statement .wid2 {
+  width: 50%;
+  text-align: center;
+}
+#statement .wid3 {
+  width: 30%;
+  text-align: center;
+}
+#statement .wid4 {
+  width: 25%;
+  text-align: right;
+}
+#statement .wid5 {
+  width: 20%;
+  text-align: center;
+}
+#statement .wid7 {
+  width: 30%;
+  text-align: center;
+}
+#statement .wid8 {
+  width: 20%;
+  text-align: center;
+}
+#statement .wid {
+  width: 100%;
+  text-align: center;
+}
+#statement .pay_name {
+  display: flex;
+  flex-direction: row;
+  width: 42%;
+}
+#statement .pay_name1 {
+  width: 42%;
+  text-align: center;
+}
+#statement .serial {
+  border: 2rpx solid #999;
+  border-radius: 72rpx;
+  width: 46rpx;
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+  line-height: 46rpx;
+  height: 46rpx;
+}
+#statement .child {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(114, 130, 138, 0.18);
+  padding: 10px 0;
+  padding-left: 15px;
+}
+#statement .middle_content {
+  width: 100%;
+  line-height: 22px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #999;
+}
+#statement .w {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+#statement .pro_serial {
+  border: 1px solid #999;
+  border-radius: 36px;
+  width: 23px;
+  line-height: 23px;
+  height: 23px;
+  position: absolute;
+  top: 9px;
+  text-align: center;
+  left: 12px;
+}
+#statement .allprice {
+  text-align: right;
+  /* padding-right: 20px; */
+  padding: 10px 20px 0px 0;
+}
+#statement .addcombtn {
+  width: 90px;
+  height: 35px;
+  background-color: #FB4B5C;
+  color: #FFFFFF;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  margin-left: 70%;
+}
+#statement .bottom_show {
+  width: 100%;
+  margin-top: 10px 0;
+  background-color: #fff;
+}
+#statement .bottom_line {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+#statement .right {
+  margin: auto 0;
+  color: #505050;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 20px;
+  width: 40%;
+  text-align: right;
+}
+#statement .icon {
+  color: #999999;
+  font-size: 30px;
+  padding-left: 15px;
+}
+#statement .left {
+  margin: auto 0;
+  font-size: 16px;
+  color: #505050;
+  width: 90%;
+  padding-left: 15px;
+  text-align: left;
+}
+#statement .caricon {
+  margin: auto 0;
+  width: 65px;
+  height: 29px;
+  color: #fff;
+  background-color: #FB4B5C;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 29px;
+  text-align: center;
+}
+#statement .subicon {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+#statement .paycarlist {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 15px;
+  /* text-align: right; */
+  margin: 5px 0;
+}
+#statement .paycar_name {
+  font-size: 15px;
+  font-weight: bold;
+  width: 60%;
+  text-align: right;
+}
+#statement .paycar_price {
+  font-size: 15px;
+  margin: 0 10px;
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+}
+#statement .true_price {
+  padding-bottom: 60px;
+}
+#statement checkbox.round .wx-checkbox-input,
+#statement checkbox.round .uni-checkbox-input {
+  border-radius: 100rpx;
+  background-color: #ffc300 !important;
+}
+#statement .round {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+#statement switch.blue[checked] .wx-switch-input,
+#statement checkbox.blue[checked] .wx-checkbox-input,
+#statement radio.blue[checked] .wx-radio-input,
+#statement switch.blue.checked .uni-switch-input,
+#statement checkbox.blue.checked .uni-checkbox-input,
+#statement radio.blue.checked .uni-radio-input {
+  background-color: #ffc300 !important;
+  /* border-color: #0081ff !important; */
+  color: #ffffff !important;
+}
+#statement .middle-dialog {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 337px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+#statement .choosebtn {
+  font-size: 12px;
+  float: right;
+  margin-right: 5%;
+  /* : 1px solid #F1F1F1; */
+  width: 110px;
+  height: 30px;
+  text-align: center;
+  background-color: #39b54a;
+  color: #FFFFFF;
+  line-height: 30px;
+  border-radius: 30px;
+  box-shadow: 6rpx 6rpx 8rpx rgba(48, 156, 63, 0.2);
+}
+#statement .middle_title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 13px;
+  font-weight: bold;
+}
+#statement .action1 {
+  font-size: 22px;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+#statement .showcarlist {
+  width: 30%;
+  margin: 5px;
+  /* margin-top: 40px; */
+}
+#statement .midlle-car-top {
+  width: 100%;
+  height: 44px;
+}
+#statement .vip_car {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  /* overflow-x: scroll; */
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  position: relative;
+  padding-top: 10px;
+}
+#statement .car {
+  width: 30%;
+  height: 50px;
+  /* padding: 0 26px; */
+  /* padding-left: 30px; */
+  /* margin: 16px 0; */
+}
+#statement .vip_car_bc {
+  width: 100%;
+  height: 72px;
+  color: #505050;
+  background-color: #383838;
+  border-radius: 4px;
+  font-size: 11px;
+  /* margin: 5px 9px 5px 2px; */
+  position: relative;
+}
+#statement .vipcarchooseIndex {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 20px;
+  color: red;
+  z-index: 99999;
+}
+#statement .vip_car_circle {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  color: #505050;
+  background-color: #ffc300;
+  box-shadow: #ffffff solid 1px;
+  border-radius: 12px;
+  text-align: center;
+}
+#statement .swiper-car-list {
+  /* margin-top: 60px; */
+  height: 250px;
+  /* scroll-view加上页面的高度就可以自适应 */
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  /* margin-bottom: 600px; */
+  overflow: auto;
+}
+#statement .car_name {
+  position: absolute;
+  right: 5%;
+  top: 7%;
+  color: #ffc300;
+  font-size: 8px;
+}
+#statement .car_number {
+  position: absolute;
+  left: 2%;
+  bottom: 3%;
+  color: #ffc300;
+  font-size: 8px;
+}
+#statement .car_class {
+  color: #505050;
+  font-size: 11px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 7px;
+}
+#statement .car_price {
+  position: absolute;
+  bottom: 0%;
+  color: #d43030;
+  font-size: 16px;
+  font-weight: bold;
+  right: 5%;
+}
+#statement .cu-bar {
+  width: 100%;
+  height: 40px;
+}
+#statement .body-view {
+  height: 400px;
+  width: 100%;
+}
+#statement .top-menu-view {
+  display: flex;
+  white-space: nowrap;
+  width: 100%;
+  background-color: #ffffff;
+  height: 46px;
+  /* 在这里设置导航条高度 */
+  border-bottom: 2px solid #f1f1f1;
+  /* padding-right: 15px; */
+}
+#statement .top-menu-view .menu-one-view {
+  display: inline-block;
+  white-space: nowrap;
+  height: 100%;
+  width: 50%;
+}
+#statement .top-menu-view .menu-one-view .menu-one {
+  /* 在这里写 单个按钮样式 */
+  /* margin: 12px 12px 18px 22px; */
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 50%; */
+  text-align: center;
+}
+#statement .top-menu-view .menu-one-view .menu-one .menu-one-txt {
+  height: 40rpx;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #9a9a9a;
+  line-height: 40rpx;
+  margin-top: 10px;
+}
+#statement .top-menu-view .menu-one-view .menu-one .menu-one-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#statement .top-menu-view .menu-one-view .menu-one .menu-one-bottom .menu-one-bottom-color {
+  width: 100%;
+  height: 4rpx;
+}
+#statement .top-menu-view .menu-one-view .menu-one-act {
+  /* 在这里写 单个按钮样式 */
+  /* margin: 12px 12px 18px 22px; */
+  position: relative;
+  margin: 0 26%;
+  height: 100%;
+  /* width: 65px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #ff7777;
+}
+#statement .top-menu-view .menu-one-view .menu-one-act .menu-one-txt {
+  height: 30px;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: #00aaff;
+  line-height: 40rpx;
+  margin-top: 10px;
+}
+#statement .top-menu-view .menu-one-view .menu-one-act .menu-one-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#statement .top-menu-view .menu-one-view .menu-one-act .menu-one-bottom .menu-one-bottom-color {
+  width: 60%;
+  height: 4rpx;
+  background: #00aaff;
+}
+#statement .swiper-box-list {
+  /* flex: 1; */
+  width: 100%;
+  height: 250px;
+  background-color: #ffffff;
+}
+#statement .swiper-one-list {
+  /* margin-top: 60px; */
+  height: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  /* margin-bottom: 600px; */
+  overflow: auto;
+}
+#statement .vip_car1 {
+  width: 90%;
+  height: 110px;
+  overflow: hidden;
+  overflow-x: scroll;
+  display: flex;
+  margin: 0 auto;
+}
+#statement .car1 {
+  width: 48%;
+  margin: 1%;
+  /* margin: 0 10px 0 10px; */
+}
+#statement .vip_car_bc1 {
+  width: 190px;
+  height: 80px;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  margin: 10px 40px;
+}
+#statement .car_name1 {
+  position: absolute;
+  left: 13%;
+  top: 57%;
+  font-size: 12px;
+}
+#statement .car_number1 {
+  position: absolute;
+  left: 12%;
+  bottom: 51%;
+  font-size: 17px;
+}
+#statement .vipbacimage {
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  right: 6%;
+  top: 10%;
+}
+#statement .vipbacimage image {
+  width: 40px;
+  height: 46px;
+  position: absolute;
+  right: 5%;
+  top: 27%;
+}
+#statement .circle1 {
+  width: 19px;
+  height: 19px;
+  border: 2px solid #80848c;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: 45%;
+}
+#statement .circlemin1 {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #fff;
+  right: 16%;
+  top: 18%;
+}
+#statement .list1 {
+  height: 100px;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #E8E8E8;
+  position: relative;
+}
+#statement .onvipcar {
+  width: 19px;
+  height: 19px;
+  border: 2px solid #d43030;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: 45%;
+}
+#statement .cu_dialog1 {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 400px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+#statement .cu_dialog2 {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 250px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+#statement .list {
+  height: 66px;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid #E8E8E8;
+  position: relative;
+}
+#statement .list_usecause {
+  width: 28%;
+  word-break: break-all;
+  height: 63px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+  background-color: #2a82e4;
+  font-size: 12px;
+  line-height: 66px;
+  text-align: center;
+}
+#statement .list_usecause1 {
+  width: 28%;
+  word-break: break-all;
+  height: 63px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+  background-color: #d4a200;
+  font-size: 13px;
+  line-height: 66px;
+  text-align: center;
+}
+#statement .list_name {
+  color: #505050;
+  font-size: 11px;
+  position: absolute;
+  top: 8%;
+  left: 32%;
+  font-weight: bold;
+}
+#statement .list_time {
+  color: #a6a6a6;
+  position: absolute;
+  bottom: 10%;
+  left: 32%;
+  font-size: 11px;
+}
+#statement .circle {
+  width: 19px;
+  height: 19px;
+  border: 2px solid #80848c;
+  border-radius: 50%;
+  position: absolute;
+  right: 4%;
+  top: 31%;
+}
+#statement .on {
+  width: 19px;
+  height: 19px;
+  border: 2px solid #d43030;
+  border-radius: 50%;
+  position: absolute;
+  right: 4%;
+  top: 31%;
+}
+#statement .circlemin {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #fff;
+  right: 16%;
+  top: 18%;
+}
+#statement .on1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #d43030;
+  top: 0%;
+  left: 0%;
+  border: 2px solid #fff;
+}
+#statement .submit {
+  width: 42%;
+  height: 35px;
+  color: #ffffff;
+  box-shadow: 6rpx 6rpx 8rpx rgba(204, 69, 59, 0.2);
+  background-color: #e54d42;
+  border-radius: 13px;
+  font-size: 13px;
+  line-height: 35px;
+  text-align: center;
+  margin: 2px auto;
+}
+#statement .bottom {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  top: auto;
+  left: 0px;
+  width: 100%;
+}
+#statement .show_price {
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  background-color: #5D76E4;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
+}
+#statement .buybtn {
+  width: 50%;
+  height: 50px;
+  color: #FB4B5C;
+  background-color: #fff;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
+}
+#statement .allpay {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#statement .cd {
+  width: 33.3%;
+  width: 88px;
+  margin: 5px 15px;
+  height: 40px;
+  color: #2a82e4;
+  background-color: #ffffff;
+  border: 1px solid #2a82e4;
+  border-radius: 21px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+#statement .cu-bar {
+  margin-bottom: 10px;
+}
+#statement .choosepaybtn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0px;
+}
+#statement .choosepaybtn2,
+#statement .choosepaybtn1 {
+  line-height: 50px;
+  /* margin: 10px 0; */
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #39B54A;
+  text-align: center;
+}
+#statement .choosepaybtn1 {
+  background-color: #1890FF;
+}
+#statement .CueIndex {
+  background-color: #1890FF;
+  color: #fff;
+}
+

@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/VIPcar/VIpcarlist",
+    "pages/me/me",
+    "pages/myOrder/myOrder",
+    "pages/giftdetails/projectdetail",
+    "pages/giftdetails/onlyprojectdetails",
+    "pages/location/location",
+    "pages/myOrder/commonCart",
+    "pages/myOrder/productstatement",
+    "pages/craftsman/craftsman",
+    "pages/myOrder/commodity",
+    "pages/orderPay/orderPay",
+    "pages/index/chooseTime",
+    "pages/VIPcar/VIPcar",
+    "pages/projectclassify/projectclassify",
+    "pages/index/chooseOrder",
+    "pages/myOrder/evaluate",
+    "pages/myOrder/orderDetails",
+    "pages/vipCarDetails/vipCarDetails",
+    "pages/vipCarDetails/vipCarListDetail",
+    "pages/VIPcar/VIPcarTransfer",
+    "pages/myOrder/refundStatus",
+    "pages/myOrder/comAdvice",
+    "pages/giftdetails/giftdetails",
+    "pages/craftsman/craftmanDetails",
+    "pages/index/inform",
+    "pages/store_intro/store_intro",
+    "pages/giftmore/giftmore",
+    "pages/giftmore/storemap"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "美姿沙龙",
+    "navigationBarBackgroundColor": "#CA89FF",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#A8A8A8",
+    "selectedColor": "#C29AFD",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/1.png",
+        "selectedIconPath": "static/11.png",
+        "text": "美约会"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/4.png",
+        "selectedIconPath": "static/44.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "提供门店定位"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {
+    "mpopup": "/components/xuan-popup/xuan-popup"
+  }
+}

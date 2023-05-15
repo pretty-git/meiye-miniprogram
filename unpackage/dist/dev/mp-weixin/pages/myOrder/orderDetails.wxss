@@ -1,0 +1,323 @@
+
+.occupymodal.data-v-51a13a7a {
+	background-color: #fff;
+	height: 50px;
+	width: 100%;
+}
+.page.data-v-51a13a7a {
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	background-color: #fff !important;
+	width: 100%;
+	/* height: 100%; */
+}
+
+/* 头部部分 */
+.page_top.data-v-51a13a7a {
+	width: 100%;
+	height: 135px;
+	background-color: #CA89FF;
+	position: relative;
+}
+.topicon.data-v-51a13a7a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 25px;
+	/* padding-top: 3px; */
+	margin-top: 5%;
+	margin-left: 5%;
+	font-weight: bold;
+}
+.topicon1.data-v-51a13a7a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	margin-left: 15%;
+	font-weight: bold;
+}
+.topicon11.data-v-51a13a7a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	font-weight: bold;
+}
+.topicon2.data-v-51a13a7a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 15px;
+	margin-left: 55%;
+	width: 100%;
+}
+.topicon3.data-v-51a13a7a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	position: absolute;
+	top: 3%;
+	right: 22%;
+}
+.top_text.data-v-51a13a7a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 23px;
+	margin-top: 4%;
+	margin-left: 2%;
+}
+.top_time.data-v-51a13a7a {
+	position: absolute;
+	top: 25%;
+	color: rgba(255, 255, 255, 1);
+	right: 5%;
+}
+.top_time1.data-v-51a13a7a {
+	position: absolute;
+	top: 4%;
+}
+.top_time11.data-v-51a13a7a {
+	width: 100%;
+	position: absolute;
+	top: 23%;
+	left: 8%;
+}
+.order_modal.data-v-51a13a7a {
+	width: 90%;
+	position: absolute;
+	top: 13%;
+	right: 5%;
+	left: 5%;
+	height: 126px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 150%;
+	box-shadow: 0px 9px 40px 3px rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+.fix.data-v-51a13a7a {
+	display: flex;
+	flex-direction: row;
+}
+.vertical.data-v-51a13a7a {
+	margin: auto 0;
+}
+
+/* 上下居中 */
+.use_craftman.data-v-51a13a7a {
+	width: 44px;
+	height: 44px;
+	border-radius: 4px;
+}
+.use_craftman image.data-v-51a13a7a {
+	width: 44px;
+	height: 44px;
+	border-radius: 4px;
+}
+.order.data-v-51a13a7a {
+	height: 50%;
+	padding: 0 15px;
+}
+.lefticon.data-v-51a13a7a {
+	font-size: 28px;
+	font-weight: bold;
+	color: rgba(56, 56, 56, 1);
+}
+.righticon.data-v-51a13a7a {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(153, 153, 153, 1);
+}
+.width.data-v-51a13a7a {
+	width: 90%;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+/* 服务模块 */
+.pro_modal.data-v-51a13a7a {
+	background-color: #fff;
+	padding-top: 260rpx;
+	width: 100%;
+}
+.pro_top.data-v-51a13a7a {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.proicon.data-v-51a13a7a {
+	font-size: 24px;
+	color: rgba(56, 56, 56, 1);
+	padding-left: 17px;
+}
+.protext.data-v-51a13a7a {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 8px;
+}
+.telicon.data-v-51a13a7a {
+	font-size: 25px;
+	color: rgba(153, 153, 153, 1);
+}
+.tel.data-v-51a13a7a {
+	text-align: center;
+	height: 40px;
+	width: 25%;
+	margin: auto;
+}
+.tel_text.data-v-51a13a7a {
+	margin-left: 10px;
+}
+.proimage.data-v-51a13a7a {
+	width: 90px;
+	height: 62px;
+	border-radius: 4px;
+}
+.proimage image.data-v-51a13a7a {
+	width: 90px;
+	height: 62px;
+	border-radius: 4px;
+}
+.detailList_name.data-v-51a13a7a {
+	font-size: 16px;
+}
+.detailList_time.data-v-51a13a7a {
+	color: rgba(166, 166, 166, 1);
+	font-size: 14px;
+	margin-top: 15px;
+}
+.proList.data-v-51a13a7a {
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.detailList_price.data-v-51a13a7a {
+	color: rgba(255, 108, 144, 1);
+	font-size: 14px;
+}
+.pay_modal.data-v-51a13a7a {
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.pay_left.data-v-51a13a7a {
+	width: 22%;
+	letter-spacing: 1px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+	font-weight: bold;
+}
+.pay_left1.data-v-51a13a7a {
+	width: 40%;
+	letter-spacing: 1px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+	font-weight: bold;
+}
+.hei.data-v-51a13a7a {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.allprice_modal.data-v-51a13a7a {
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.allprice_wid.data-v-51a13a7a {
+	width: 68%;
+	text-align: right;
+}
+.truePrice.data-v-51a13a7a {
+	height: 30px;
+	width: 100%;
+	/* margin-bottom: 100px; */
+	margin-top: 5px;
+	padding-left: 55%;
+}
+.truePrice1.data-v-51a13a7a {
+	height: 30px;
+	width: 100%;
+	/* margin-bottom: 100px; */
+	margin-top: 5px;
+	padding-left: 69%;
+}
+.bottom_btn.data-v-51a13a7a {
+	height: 50px;
+	background-color: #fff;
+	padding-left: 15px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #f1f1f1;
+	width: 100%;
+	/* border-bottom: 2px solid #F1F1F1; */
+}
+.bottom_btn1.data-v-51a13a7a {
+	width: 88px;
+	height: 29px;
+	line-height: 29px;
+	color: rgba(80, 80, 80, 1);
+	border: 1px solid rgba(204, 204, 204, 1);
+	border-radius: 16px;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+/* 底部窗口 */
+.cu_dialog2.data-v-51a13a7a {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	height: 330px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+/* 必选项 */
+.radio-group.data-v-51a13a7a {
+	background-color: #fff;
+	width: 100%;
+	margin: 10px 0;
+}
+.radio_click.data-v-51a13a7a {
+	display: flex;
+	flex-direction: row;
+	height: 45px;
+	line-height: 45px;
+	margin: 0px 14px;
+}
+.price.data-v-51a13a7a {
+	font-size: 14px;
+	width: 68%;
+	text-align: right;
+}
+uni-radio .uni-radio-input.data-v-51a13a7a {
+	-webkit-appearance: none;
+	appearance: none;
+	margin-right: 5px;
+	outline: 0;
+	border: 1px solid #d1d1d1;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+	position: relative;
+}
+.okBtn.data-v-51a13a7a {
+	position: absolute;
+	bottom: 0px;
+	left: 33%;
+	width: 34%;
+	height: 30px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(212, 48, 48, 1);
+	border-radius: 14px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px 0;
+}
+

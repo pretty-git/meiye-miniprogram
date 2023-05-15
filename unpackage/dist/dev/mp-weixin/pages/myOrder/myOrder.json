@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "tui-button": "/components/button/button",
+    "tui-modal": "/components/modal/modal"
+  }
+}

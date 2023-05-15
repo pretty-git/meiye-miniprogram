@@ -1,0 +1,19 @@
+
+.page.data-v-8ff73c20 {
+	position: absolute;
+	top: 0;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+.uni-steps.data-v-8ff73c20 {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	position: relative;
+	padding-left: 30%;
+	padding-top: 20%;
+}
+

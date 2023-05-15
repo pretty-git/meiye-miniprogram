@@ -1,0 +1,258 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 卡片模块 */
+.vip_car_bc.data-v-27ec5be3 {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 161px;
+	color: rgba(80, 80, 80, 1);
+	border-radius: 6px;
+	position: relative;
+}
+.vip_car_circle.data-v-27ec5be3 {
+	width: 39px;
+	height: 39px;
+	position: absolute;
+	left: 4%;
+	top: 4%;
+	background-color: #fff;
+	box-shadow: rgba(255, 255, 255, 1) solid 1px;
+	border-radius: 21px;
+	text-align: center;
+}
+.car_name.data-v-27ec5be3 {
+	position: absolute;
+	top: 37%;
+	left: 30%;
+	/* right: 50%; */
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+.car_number.data-v-27ec5be3 {
+	position: absolute;
+	left: 5%;
+	bottom: 9%;
+	color: #fff;
+	font-size: 14px;
+}
+.car_class.data-v-27ec5be3 {
+	position: absolute;
+	left: 17%;
+	top: 10%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.time.data-v-27ec5be3 {
+	position: absolute;
+	top: 10%;
+	right: 6%;
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+}
+.residul.data-v-27ec5be3 {
+	position: absolute;
+	right: 6%;
+	bottom: 10%;
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+}
+/* 交易明细 */
+.deatils.data-v-27ec5be3 {
+	width: 90%;
+	margin: 0 auto;
+}
+.title.data-v-27ec5be3 {
+
+	height: 76px;
+	display: flex;
+	flex-direction: row;
+	line-height: 76px;
+}
+.title_name.data-v-27ec5be3 {
+	color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 7%;
+	width: 30%;
+}
+.btn.data-v-27ec5be3 {
+	color: #FBFDF4;
+	background-color: #FB4B5C;
+	border-radius: 16px;
+	font-size: 12px;
+	line-height: 39px;
+	font-weight: 600;
+	height: 35px;
+	margin: 21px 0;
+	text-align: center;
+	padding: 0px 6px;
+	width: 30%;
+	margin-left: 35%;
+}
+/* 交易记录 */
+.recordlist.data-v-27ec5be3 {
+	width: 85%;
+	margin: 0 auto;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #E5E5E5;
+	position: relative;
+}
+.site.data-v-27ec5be3 {
+	width: 80%;
+	position: absolute;
+	top: -26%;
+	left: 0px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+}
+.consumetime.data-v-27ec5be3 {
+	position: absolute;
+	bottom: -23%;
+	left: 0px;
+	color: #BBBBBB;
+	font-size: 14px;
+}
+.price.data-v-27ec5be3 {
+	width: 40%;
+	position: absolute;
+	bottom: -25%;
+	left: 60%;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+}
+.icon.data-v-27ec5be3 {
+	position: absolute;
+	top: 2%;
+	right: -7%;
+	color: rgba(80, 80, 80, 1);
+	font-size: 22px;
+	font-weight: bold;
+}
+

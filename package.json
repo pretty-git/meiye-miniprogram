@@ -1,0 +1,20 @@
+{
+    "id": "pretty-shopping",
+    "name": "美容美发预约团购小程序",
+    "displayName": "美容美发预约团购小程序",
+    "version": "1.0.1",
+    "description": "现在是个简单的首页，包含的是项目，礼包，会员卡的使用，还有手艺人信息，预约，团购，支付，购买",
+    "keywords": [
+        "预约",
+        "团购",
+        "项目",
+        "支付",
+        "会员卡"
+    ],
+    "dcloudext": {
+        "category": [
+            "uni-app前端模板",
+            "uni-app前端项目模板"
+        ]
+    }
+}

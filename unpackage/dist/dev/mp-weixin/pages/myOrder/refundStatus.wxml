@@ -1,0 +1,1 @@
+<view class="page data-v-8ff73c20"><uni-steps class=".uni-steps data-v-8ff73c20" vue-id="48885d16-1" data="{{data}}" direction="column" active="{{active}}" bind:__l="__l"></uni-steps></view>

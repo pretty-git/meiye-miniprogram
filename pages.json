@@ -1,0 +1,548 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "名姿沙龙",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/VIPcar/VIpcarlist",
+			"style": {
+				"navigationBarTitleText": "会员卡",
+				"enablePullDownRefresh": true
+			}
+		},
+		// {
+		// 	"path": "pages/me/personal",
+		// 	"style": {
+		// 		"navigationBarTitleText": "档案中心"
+		// 	}
+		// },
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		// {
+		// 	"path": "pages/me/shoppingBag",
+		// 	"style": {
+		// 		"navigationBarTitleText": "购物袋",
+		// 		"enablePullDownRefresh": true
+		// 	}
+		// },{
+		// 	"path": "pages/me/integral",
+		// 	"style": {
+		// 		"navigationBarTitleText": "积分"
+		// 	}
+		// },
+		{
+		
+			"path": "pages/myOrder/myOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		
+		// {
+		// 	"path": "pages/full/full",
+		// 	"style": {
+		// 		"navigationBarTitleText": "美品汇"
+		// 	}
+		// },
+		
+		
+		
+		// {
+		// 	"path": "pages/learn/movieDetails",
+		// 	"style": {
+		// 		"navigationBarTitleText": "视频详情",
+		// 		"mp-weixin": {
+		// 			"usingComponents": {
+		// 				// #ifdef  MP-WEIXIN 
+		// 				"txv-video": "plugin://tencentvideo/video"
+		// 				// #endif
+		// 			}
+		// 		}
+		// 	}
+		// },
+		
+	
+		
+	
+	
+	
+	// 	{
+	// 		"path": "pages/me/complaints",
+	// 		"style": {
+	// 			"navigationBarTitleText": "建议反馈"
+	// 		}
+	// 	},
+	
+	// 	{
+	// 		"path": "pages/me/complaintsmore",
+	// 		"style": {
+	// 			"navigationBarTitleText": "投诉单详情"
+	// 		}
+	// 	},
+	
+	
+	
+	
+		
+		{
+			"path": "pages/giftdetails/projectdetail",
+			"style": {
+				"navigationBarTitleText": "项目详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/giftdetails/onlyprojectdetails",
+			"style": {
+				"navigationBarTitleText": "详情展示",
+				"enablePullDownRefresh": true
+			}
+		},
+	
+	
+	
+		{
+			"path": "pages/location/location",
+			"style": {
+				"navigationBarTitleText": "切换门店"
+			}
+		},
+	
+	
+	
+		{
+			"path": "pages/myOrder/commonCart",
+			"style": {
+				"navigationBarTitleText": "店卖品",
+				"enablePullDownRefresh": true
+			}
+		},
+	
+	
+	
+	
+	// 	{
+	// 		"path": "pages/myOrder/statement",
+	// 		"style": {
+	// 			"navigationBarTitleText": "结账单"
+	// 		}
+	// 	},
+	// 	{
+	// 		"path": "pages/me/red_packet",
+	// 		"style": {
+	// 			"navigationBarTitleText": "红包"
+	// 		}
+	// 	},
+	
+	// 	{
+	// 		"path": "pages/me/receipt",
+	// 		"style": {
+	// 			"navigationBarTitleText": "购物小票"
+	// 		}
+	// 	},
+	
+		{
+			"path": "pages/myOrder/productstatement",
+			"style": {
+				"navigationBarTitleText": "产品订单"
+			}
+	
+		},
+		
+	
+	
+		{
+			"path": "pages/craftsman/craftsman",
+			"style": {
+				"navigationBarTitleText": "选择手艺人",
+				"enablePullDownRefresh": true
+			}
+		},
+	
+		// {
+		// 	"path": "pages/me/browingHistory",
+		// 	"style": {
+		// 		"navigationBarTitleText": "浏览记录"
+		// 	}
+		// },
+	
+		{
+			"path": "pages/myOrder/commodity",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+	
+	
+	
+		// {
+		// 	"path": "pages/me/collectMovie",
+		// 	"style": {
+		// 		"navigationBarTitleText": "关注的视频"
+		// 	}
+		// },
+	
+		{
+			"path": "pages/orderPay/orderPay",
+			"style": {
+				"navigationBarTitleText": "选择支付"
+			}
+		},
+	
+	
+	
+	
+		{
+			"path": "pages/index/chooseTime",
+			"style": {
+				"navigationBarTitleText": "选择时间",
+				"enablePullDownRefresh": true
+			}
+		},
+	
+	
+		// {
+		// 	"path": "pages/learn/learn",
+		// 	"style": {
+		// 		"navigationBarTitleText": "美学堂",
+		// 		"enablePullDownRefresh": true
+		// 	}
+		// },
+	
+		{
+			"path": "pages/VIPcar/VIPcar",
+			"style": {
+				"navigationBarTitleText": "办理会员卡",
+				"enablePullDownRefresh": false,
+				"disableScroll": true,
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+	
+	
+	
+		{
+			"path": "pages/projectclassify/projectclassify",
+			"style": {
+				"navigationBarTitleText": "项目类别"
+			}
+		},
+	
+	
+		// {
+		// 	"path": "pages/learn/textdetails",
+		// 	"style": {
+		// 		"navigationBarTitleText": "文章详情",
+		// 		"enablePullDownRefresh": true
+		// 	}
+		// },
+	
+	
+	// 	{
+	// 		"path": "pages/empty/empty",
+	// 		"style": {
+	// 			"navigationBarTitleText": "获取手机号"
+	// 		}
+	// 	},
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+			"path": "pages/index/chooseOrder",
+			"style": {
+				"navigationBarTitleText": "选择项目"
+			}
+		},
+	
+	
+	
+		{
+			"path": "pages/myOrder/evaluate",
+			"style": {
+				"navigationBarTitleText": "输入评价"
+			}
+		},
+	
+	
+	
+	
+	
+		{
+			"path": "pages/myOrder/orderDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+	
+	
+		{
+			"path": "pages/vipCarDetails/vipCarDetails",
+			"style": {
+				"navigationBarTitleText": "会员卡详情"
+			}
+		},
+		{
+			"path": "pages/vipCarDetails/vipCarListDetail",
+			"style": {
+				"navigationBarTitleText": "会员卡详情"
+			}
+		},
+	
+	
+	
+		{
+			"path": "pages/VIPcar/VIPcarTransfer",
+			"style": {
+				"navigationBarTitleText": "会员卡转账"
+			}
+		},
+	
+	
+	
+	
+	
+	// 	{
+	// 		"path": "pages/payment/payment",
+	// 		"style": {
+	// 			"navigationBarTitleText": "远程代付"
+	// 		}
+	// 	},
+	
+	
+	
+		{
+			"path": "pages/myOrder/refundStatus",
+			"style": {
+				"navigationBarTitleText": "退款进度"
+			}
+		},
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+			"path": "pages/myOrder/comAdvice",
+			"style": {
+				"navigationBarTitleText": "投诉建议"
+			}
+		},
+	
+	
+	
+	
+	
+		// {
+		// 	"path": "pages/me/personalCustom",
+		// 	"style": {
+		// 		"navigationBarTitleText": "美丽定制"
+		// 	}
+		// },
+	
+	
+	// 	{
+	// 		"path": "pages/me/personalArchives",
+	// 		"style": {
+	// 			"navigationBarTitleText": "美丽档案"
+	// 		}
+	// 	},
+	
+		
+	
+	// 	{
+	// 		"path": "pages/me/coupon",
+	// 		"style": {
+	// 			"navigationBarTitleText": "购物券"
+	// 		}
+	// 	},
+	
+	
+	// 	{
+	// 		"path": "pages/me/collectStore",
+	// 		"style": {
+	// 			"navigationBarTitleText": "关注门店"
+	// 		}
+	// 	},
+	
+	// 	{
+	// 		"path": "pages/me/collectProject",
+	// 		"style": {
+	// 			"navigationBarTitleText": "关注项目"
+	// 		}
+	// 	},
+	
+	
+	// 	{
+	// 		"path": "pages/me/collectCraftman",
+	// 		"style": {
+	// 			"navigationBarTitleText": "关注手艺人"
+	// 		}
+	// 	},
+	
+	
+	// 	{
+	// 		"path": "pages/me/balance",
+	// 		"style": {
+	// 			"navigationBarTitleText": "余额"
+	// 		}
+	// 	},
+	
+	
+		{
+			"path": "pages/giftdetails/giftdetails",
+			"style": {
+				"navigationBarTitleText": "支付礼包"
+			}
+		},
+	
+	
+		{
+			"path": "pages/craftsman/craftmanDetails",
+			"style": {
+				"navigationBarTitleText": "手艺人详情"
+			}
+		},
+	
+	
+	
+	
+	
+	
+	
+		// {
+		// 	"path": "pages/swipernav/swipernav",
+		// 	"style": {
+		// 		"navigationBarTitleText": "新春活动页"
+		// 	}
+		// },
+	
+		{
+			"path": "pages/index/inform",
+			"style": {
+				"navigationBarTitleText": "消息通知"
+			}
+		},
+	
+		{
+			"path": "pages/store_intro/store_intro",
+			"style": {
+				"navigationBarTitleText": "门店介绍"
+			}
+		},
+	
+	
+	
+	
+	
+	
+	
+	// 	{
+	// 		"path": "pages/me/recharge",
+	// 		"style": {
+	// 			"navigationBarTitleText": "充值"
+	// 		}
+	// 	},
+	
+	
+	
+	
+	// 	{
+	// 		"path": "pages/me/withdraw",
+	// 		"style": {
+	// 			"navigationBarTitleText": "提现"
+	// 		}
+	// 	},
+	
+	// 	{
+	// 		"path": "pages/date/date",
+	// 		"style": {}
+	// 	},
+	
+	
+		// {
+		// 	"path": "pages/test/test",
+		// 	"style": {
+		// 		"navigationBarTitleText": "授权登录"
+		// 	}
+		// },
+		{
+			"path": "pages/giftmore/giftmore",
+			"style": {
+				"navigationBarTitleText": "活动礼包"
+			}
+		},
+		{
+			"path": "pages/giftmore/storemap",
+			"style": {
+				"navigationBarTitleText": "门店地图"
+			}
+		}
+	// 	 {
+	// 		"path": "pages/demo/demo",
+	// 		"style": {}
+	// 	}
+	
+	],
+	"requiredPrivateInfos": ["getLocation"],
+
+	"permission": {
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+	    }
+	  },
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "美姿沙龙",
+		"navigationBarBackgroundColor": "#CA89FF",
+		"backgroundColor": "#fff"
+	},
+	// "plugins": {
+	// 	"chooseLocation": {
+	// 		"version": "1.0.2",
+	// 		"provider": "wx8bb29c03f97c5ede"
+	// 	}
+	// },
+	"networkTimeout": {
+		"request": 5000,
+		"downloadFile": 5000
+	},
+	"usingComponts": true,
+	"tabBar": {
+		"color": "#A8A8A8",
+		"selectedColor": "#C29AFD",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/1.png",
+				"selectedIconPath": "static/11.png",
+				"text": "美约会"
+			},{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/4.png",
+				"selectedIconPath": "static/44.png",
+				"text": "我的"
+			}
+		]
+	},
+	"navigateToMiniProgramAppIdList": ["wx8bb29c03f97c5ede"]
+}

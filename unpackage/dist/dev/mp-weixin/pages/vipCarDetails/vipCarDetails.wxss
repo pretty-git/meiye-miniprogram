@@ -1,0 +1,196 @@
+
+page.data-v-b68a09c4 {
+	background-color: #F1F1F1;
+	height: 100%;
+	/* position: relative; */
+}
+
+/* 卡片模块 */
+.vip_car_bc.data-v-b68a09c4 {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 150px;
+	color: rgba(80, 80, 80, 1);
+	background-color: #F074AD;
+	border-radius: 6px;
+	position: relative;
+}
+.share.data-v-b68a09c4 {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 4%;
+	right: 4%;
+}
+button.data-v-b68a09c4::after {
+
+	border: none;
+}
+button.data-v-b68a09c4 {
+	padding: 0px;
+	/* line-height: 0px; */
+	line-height: 26px;
+	background-color: rgba(56, 56, 56, 1);
+}
+.share_text.data-v-b68a09c4 {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+	padding-top: 7px;
+	background-color: #F074AD;
+}
+.share_icon.data-v-b68a09c4 {
+	font-size: 22px;
+	color: rgba(255, 255, 255, 1);
+}
+.vip_car_circle.data-v-b68a09c4 {
+	width: 39px;
+	height: 39px;
+	position: absolute;
+	left: 4%;
+	top: 4%;
+	background-color: #fff;
+	box-shadow: rgba(255, 255, 255, 1) solid 1px;
+	border-radius: 21px;
+	text-align: center;
+}
+.car_name.data-v-b68a09c4 {
+	position: absolute;
+	top: 37%;
+	left: 30%;
+	/* right: 50%; */
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+.car_number.data-v-b68a09c4 {
+	position: absolute;
+	left: 5%;
+	bottom: 9%;
+	color: #fff;
+	font-size: 14px;
+}
+.car_class.data-v-b68a09c4 {
+	position: absolute;
+	left: 17%;
+	top: 10%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.car_price.data-v-b68a09c4 {
+	position: absolute;
+	right: 6%;
+	bottom: 6%;
+	color: #E5CB30;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* 卡片介绍 */
+.car_intro.data-v-b68a09c4 {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 4% 8px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+.car_intro_title.data-v-b68a09c4 {
+	color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+.car_intro_text.data-v-b68a09c4 {
+	color: rgba(80, 80, 80, 1);
+	line-height: 20px;
+	text-align: left;
+}
+
+/* 购买按钮 */
+.buy_btn.data-v-b68a09c4 {
+	width: 100%;
+	height: 48px;
+	position: fixed;
+	bottom: 0px;
+	color: rgba(255, 255, 255, 1);
+	background-color: #CA89FF;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+}
+
+/* 支付层页面样式 */
+.cu-dialog.data-v-b68a09c4 {
+	height: 270px;
+	background-color: #fff !important;
+}
+.icon1.data-v-b68a09c4 {
+	font-family: iconfont;
+	font-size: 29px;
+	margin-right: 5px;
+}
+.bg-white.data-v-b68a09c4 {
+	width: 100%;
+	height: 50%;
+}
+.cu-bar .action2.data-v-b68a09c4 {
+	font-size: 25px;
+	position: absolute;
+	left: 16px;
+	top: 9px;
+}
+.password.data-v-b68a09c4 {
+	position: absolute;
+	top: 13px;
+	right: 10px;
+	color: rgba(153, 153, 153, 1);
+	font-size: 16px;
+}
+.bg-white.data-v-b68a09c4 {
+	height: 16px;
+	/* border-bottom: 1px solid #e8e8e8; */
+}
+.padding-xl.data-v-b68a09c4 {
+	width: 100%;
+	height: 110px;
+}
+.busname.data-v-b68a09c4 {
+	color: rgba(102, 102, 102, 1);
+	font-size: 18px;
+	margin: 0 auto;
+}
+.price.data-v-b68a09c4 {
+	color: rgba(0, 0, 0, 1);
+	font-size: 39px;
+	margin-top: 20px;
+}
+.card.data-v-b68a09c4 {
+	text-indent: 13px;
+	color: rgba(128, 128, 128, 1);
+	font-size: 17px;
+}
+.cu-btn1.data-v-b68a09c4 {
+	color: #ffffff;
+	box-shadow: 6rpx 6rpx 8rpx rgba(114, 130, 138, 0.2);
+	border-radius: 6px;
+	font-size: 18px;
+	height: 45px;
+	width: 90%;
+	margin: 0 auto;
+	line-height: 45px;
+	text-align: center;
+	background-color: #35B936;
+}
+.action3.data-v-b68a09c4 {
+	height: 58px;
+	padding-top: 30px;
+	background-color: #fff;
+}
+.occupymodal.data-v-b68a09c4 {
+	height: 60px;
+	width: 100%;
+}
+
