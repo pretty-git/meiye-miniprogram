@@ -69,12 +69,7 @@
 </template>
 
 <script>
-	var amapFile = require('../../amap-wx.js');
-	import Citys from '../../citys.js';
-	import QQMapWX from '../../qqmap-wx-jssdk.js';
-	var qqmapsdk = new QQMapWX({
-		key: 'CWSBZ-MS3KO-2ZKWF-SHUHD-PNU7V-QHFNG' // 必填
-	});
+	
 	export default {
 		data() {
 			return {
@@ -306,26 +301,28 @@
 				for (var j = 0; j < this.list[i].lists.length; j++) {
 					if (this.city == this.list[i].lists[j].fa) {
 						this.chooseit = i;
+						this.curIndex = j
 					}
 				}
 			}
 			this.store = uni.getStorageSync('city');
-			uni.request({
-				method: 'POST',
-				url: getApp().globalData.url + '/applet/store/list',
-				header: {
-					'Content-Type': 'application/json' //如果为空，加上头部接收
-				},
-				success: res => {
-					this.dataList = res.data.data;
-					// for(var item of res.data.rows)
+			// 31.231953690672974, 121.20460939869183
+			this.dataList = [{
+				stoProvince: '上海市',
+				stoCity: '嘉定区',
+				stoName: '上海1店',
+				storeId:1,
+				stoMap: "31.23942430553564, 121.32068864117035",
+				stoAddress: '万达1店'
+			},{
+				stoProvince: '上海市',
+				storeId:2,
+				stoCity: '杨浦区',
+				stoName: '上海2店',
+				stoMap: "31.301350820550038, 121.5132819123358",
+				stoAddress: '万达2店'
+			}]
 					this.getList();
-				},
-				fail: err => {
-					this.error();
-					uni.hideLoading();
-				}
-			});
 		}, //索引
 		onReady() {
 			let that = this;
@@ -357,36 +354,46 @@
 					title: '加载中',
 					mask: true
 				});
-				var ress = this.dataList;
 				for (var i = 0; i < this.dataList.length; i++) {
-					// console.log(this.dataList[i])
+					console.log(this.dataList[i])
 					if (this.dataList[i].stoProvince == this.list[this.chooseit].lists[this.curIndex].fa) {
 						var distance = 0;
 						console.log(this.dataList[i].stoCity, '3');
-						var stoCity = this.dataList[i].stoCity;
-						var stoName = this.dataList[i].stoName;
-						var stoAddress = this.dataList[i].stoAddress;
-						var storeId = this.dataList[i].storeId;
-						var stoMechanism = this.dataList[i].stoMechanism;
+						const {stoCity,stoName,  stoAddress,storeId,stoMechanism,stoMap  } = this.dataList[i]
+					
 						var that = this;
-						that.totalDistance(that.start, that.dataList[i].stoMap, stoCity, stoName, stoAddress, storeId,
+						that.totalDistance(that.start, stoMap, stoCity, stoName, stoAddress, storeId,
 							stoMechanism);
 					}
 				}
 				uni.hideLoading();
 			},
+			
+			 getDistance(lat1, lng1, lat2, lng2) {
+				 console.log(lat1, lng1, lat2, lng2)
+			  const R = 6371; // 地球半径，单位为千米
+			  const dLat = this.deg2rad(lat2 - lat1);
+			  const dLng = this.deg2rad(lng2 - lng1);
+			  const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+			            Math.cos(this.deg2rad(lat1)) * Math.cos(this.deg2rad(lat2)) *
+			            Math.sin(dLng / 2) * Math.sin(dLng / 2);
+			  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+			  const distance = R * c;
+			  return distance.toFixed(1); // 返回距离，保留一位小数
+			},
+			
+			// 将角度转换为弧度
+			 deg2rad(degrees) {
+			  return degrees * (Math.PI / 180);
+			},
+
 			totalDistance(start, end, stoCity, stoName, stoAddress, storeId, stoMechanism) {
 				var list = [];
 				var that = this;
-				uni.request({
-					method: 'GET',
-					url: 'https://apis.map.qq.com/ws/distance/v1/?mode=' + 'walking' + '&from=' + start + '&to=' +
-						end + '&key=' + 'KRMBZ-FDXK6-25VSB-EIG5J-7U7LT-Z4B4T',
-					header: {
-						'Content-Type': 'application/json' //如果为空，加上头部接收
-					},
-					success: res => {
-						var distance = Math.floor(res.data.result.elements[0].distance / 1000) + 'km';
+				
+						const data = this.getDistance(start.split(',')[0],start.split(',')[1], end.split(',')[0],end.split(',')[1] )
+						console.log(data)
+						var distance = Math.floor(data) + 'km';
 						// if(that.list[that.chooseit].lists[that.curIndex].child.length>0) { // 有城市
 						var book = 0;
 						for (var k = 0; k < that.list[that.chooseit].lists[that.curIndex].child.length; k++) {
@@ -422,8 +429,7 @@
 							};
 							that.list[that.chooseit].lists[that.curIndex].child.push(lists);
 						}
-					}
-				});
+					
 			},
 			// 索引
 			getCur(e) {

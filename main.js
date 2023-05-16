@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App'
 import Json from './Json' 
-import x2js from 'x2js' //xml数据处理插件
 import mpopup from './components/xuan-popup/xuan-popup.vue'
 Vue.component('mpopup', mpopup)
 const msg = (title, duration=1500, mask=false, icon='none')=>{
@@ -55,7 +54,6 @@ Vue.prototype.$api = {msg, json, prePage};
 
 App.mpType = 'app'
 Vue.prototype.url = 'http://192:168.0.23'
-Vue.prototype.$x2js = new x2js()
 
 const app = new Vue({
     ...App

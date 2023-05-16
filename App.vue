@@ -1,6 +1,5 @@
 <script>
 import Vue from 'vue';
-import amap from './amap-wx.js';
 import { mapMutations } from 'vuex';
 export default {
 	globalData: {

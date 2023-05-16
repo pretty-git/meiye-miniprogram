@@ -1,24 +1,20 @@
-import amapfile from './amap-wx.js';
-var myAmapFun = new amapfile.AMapWX({
-	key: 'e0d3ec86c0639dd44189196f35998bf9'
-});
-var start = ''
+
 let dataList = [{
-	stoProvince: '上海市',
-	stoCity: '青浦区',
-	stoName: '上海1店',
-	storeId:1,
-	stoMap: "111.124448,30.150499",
-	stoAddress: '江桥万达1店'
-},{
-	stoProvince: '上海市',
-	storeId:2,
-	stoCity: '青浦区',
-	stoName: '上海2店',
-	stoMap: "121.124448,30.150499",
-	stoAddress: '江桥万达2店'
-}]
-var list = []
+				stoProvince: '上海市',
+				stoCity: '嘉定区',
+				stoName: '上海1店',
+				storeId:1,
+				stoMap: "31.23942430553564, 121.32068864117035",
+				stoAddress: '万达1店'
+			},{
+				stoProvince: '上海市',
+				storeId:2,
+				stoCity: '杨浦区',
+				stoName: '上海2店',
+				stoMap: "31.301350820550038, 121.5132819123358",
+				stoAddress: '万达2店'
+			}]
+var start = ''
 var storeId = ''
 var stoAddress = ''
 let count = 0
@@ -61,8 +57,7 @@ function getlocation() {
 								streetNumber
 							} = res.data.regeocode.addressComponent
 							start = streetNumber.location //开始的经纬度
-							uni.setStorageSync('location', start); //经度
-							uni.setStorageSync('getLocation',start); //经度
+							uni.setStorageSync('getLocation', `${start.split(',')[1]},${start.split(',')[0]}`); //经度
 							uni.setStorageSync('province', province);
 							city = district
 							provin = province
